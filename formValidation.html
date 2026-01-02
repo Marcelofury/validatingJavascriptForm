@@ -8,12 +8,20 @@
                 var username = document.getElementById('name');
                 var email_address = document.getElementByid('email');
 
+                 //Check if name field is empty
                 if (username.value==''){
                     alert('Please enter the name');
                     username.focus();//used to bring the input focus back to the element where we found a problem
                     return false
 
                 }
+                if (email_address.value==''){
+                    alert('Please enter the email address');
+                    email_address.focus();
+                    return false;
+                }
+                //if all is well return true
+                return true;
             }
         </script>
         <title>Contact Details</title>
