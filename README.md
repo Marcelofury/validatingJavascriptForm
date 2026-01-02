@@ -1,2 +1,2 @@
 ## HTML JAVASCRIPT FORM
-- This is a form that uses Javascript for Validation
+- This is an HTML form that uses Javascript for Validation
