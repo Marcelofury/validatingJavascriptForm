@@ -6,7 +6,7 @@
         <script type="application/javascript">
             function checkdata(){
                 var username = document.getElementById('name');
-                var email_address = document.getElementByid('email');
+                var email_address = document.getElementById('email');
 
                  //Check if name field is empty
                 if (username.value==''){
@@ -28,7 +28,7 @@
     </head>
     <body>
         <h2>Enter your contact details:</h2> <br>
-        <form id="form1">
+        <form id="form1" onsubmit="return checkdata()">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name">
             <br><br>
